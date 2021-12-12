@@ -1,0 +1,41 @@
+.all{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVOQ7WrjSfHX6yEPs1lAOsnJ34CrWQP77MyMTNXB4GdGH9MX7AJOxZi7MQeiVgNxy9dI&usqp=CAU');
+    height: 1900px;
+}
+
+.odrdenamientos{
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-madera_24972-623.jpg?size=626&ext=jpg');
+    height: 200px;
+    right: 100px;
+    left: 0px;
+
+}
+.filtros{
+    position: relative;
+    left: 350px;
+ 
+}
+
+#add{
+    cursor: pointer;
+    position: relative;
+    left: 900px;
+}
+.pag{
+    position: relative;
+    left: 100px;
+}
+
+.descripcion{
+    color: rgb(250, 198, 161);
+}
+
+.principal{
+    color: rgb(250, 198, 161);
+    position: relative;
+    top: 15px;
+    left: 10px;
+}

@@ -1,0 +1,16 @@
+.numeritos{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#boton{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background: rgb(197, 148, 83);
+    cursor: pointer;
+}
+#boton:hover{
+    background: darkgray;
+}

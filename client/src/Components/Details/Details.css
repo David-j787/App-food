@@ -1,0 +1,62 @@
+.componente{
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-madera-oscura_88281-4012.jpg?size=626&ext=jpg');
+    width: 100%;
+    height: 1300px;
+    
+}
+
+.img-detail{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 33%;
+    border-radius: 40px;
+}
+
+.name-detail{
+    color: white;
+    text-align: center;
+}
+
+.score-detail{
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 850px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.HS-detail{
+    color: white;
+
+    position: relative;
+    left: 200px;
+    bottom: 52px;
+}
+.types{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.diet-detail{
+    color: white;
+    text-align: center;
+}
+.steps-detail{
+    color: white;
+    text-align: center;
+}
+.resumen{
+    color: white;
+    text-align: center;
+}
+
+.bottom-card{
+    background: rgba(0, 0, 0, 0.541);
+    width: 80%;
+    height: 60%;
+    border-radius: 70px;
+    position: relative;
+    left: 10%;
+}

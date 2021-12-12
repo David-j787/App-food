@@ -1,0 +1,28 @@
+.cards{    
+    justify-content: space-evenly;
+    margin: 38px;
+    background:rgba(6, 57, 70, 0.534);
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.cards:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0.2);
+}
+
+.img{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+.names{
+    justify-content: space-evenly;
+    margin: 15px;
+    position: relative;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+}

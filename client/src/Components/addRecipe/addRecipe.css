@@ -1,0 +1,44 @@
+.todo{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVOQ7WrjSfHX6yEPs1lAOsnJ34CrWQP77MyMTNXB4GdGH9MX7AJOxZi7MQeiVgNxy9dI&usqp=CAU');
+    height: 688.5px;
+}
+.data{
+    background-image: url('https://media.istockphoto.com/photos/cooking-background-concept-vintage-cutting-board-with-cutlery-top-picture-id1182345232?b=1&k=6&m=1182345232&s=170667a&w=0&h=cInj6BuhpFpHNm4ABEonAYmdXA3fSOmNdeKnIGTOOnE=');
+    width: 500px;
+    height: 335px;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+}
+.inputs{
+    position: relative;
+    left: 213px;
+    display: block;
+    justify-content: space-evenly;
+    margin: -1px;
+    bottom: 30px;
+}
+.titulo{
+    display: block;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.error{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 220px;
+    background: rgb(255, 5, 5);
+    margin-right: 350px;
+    border-radius: 8px;
+}
+
+.diets{
+    background: rgb(3, 138, 161);
+    border-radius: 7px;
+    justify-content: space-evenly;
+    margin: 5px;
+}
