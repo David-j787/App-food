@@ -11,7 +11,7 @@ export default function RecipeCard({id, name, img, diets}){
             <Link to = {'/home/' + id}>
             <div className='cards'>       
                 <img src={img} alt={img} className='img' ></img>
-                <h2 className='names'>{name}</h2>
+                <h4 className='names'>{name}</h4>
                 <p className='names'>{diets?.map(el => el.name[0].toUpperCase()+ el.name.slice(1) + ', ')}</p>
             </div>
             </Link>

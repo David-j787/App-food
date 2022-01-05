@@ -11,12 +11,13 @@
     height: 200px;
     right: 100px;
     left: 0px;
-
+    
 }
 .filtros{
     position: relative;
     left: 350px;
- 
+    bottom: 20px;
+    
 }
 
 #add{
@@ -38,4 +39,10 @@
     position: relative;
     top: 15px;
     left: 10px;
+}
+.orders{
+    justify-content: space-between;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
 }

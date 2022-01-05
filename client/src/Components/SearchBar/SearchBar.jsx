@@ -24,10 +24,11 @@ export default function SearchBar(){
     return(
         <span className='barra'>
             <input type='text'
-             placeholder='Buscar receta...'
+             id='input'
+             placeholder='Search...'
              onChange={(e) => handleInputChange(e)}
              />
-            <button type='submit' id='cursor' onClick= {(e) => handleSumbit(e)}>Buscar</button>
+            <button type='submit' id='cursor' onClick= {(e) => handleSumbit(e)}>Find</button>
         </span>
     )
 

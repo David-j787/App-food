@@ -67,27 +67,26 @@ export default function HomePage(){
 
         <div className= 'filtros'>
         <Link to = '/add'>
-            <button id = 'add'>Add</button>
+            <button  id = 'add'>Add</button>
         </Link>
 
-            <span className='descripcion'>Order Healthscore: </span>
 
-        <select className='score'  onChange={e => handleScore(e)}>
+        <select className='score' className='orders' onChange={e => handleScore(e)}>
+            <option selected>Order Healthscore</option>
             <option value="mayormenor">Higher to Lower</option>
             <option value="menormayor">Lower to Higher</option>
         </select>
 
-            <span className='descripcion'>Order: </span>
 
-        <select className= 'ordenamiento' onChange={e => handleSort(e)}>
+        <select className= 'ordenamiento' className='orders' onChange={e => handleSort(e)}>
+            <option selected>Order by Name</option>
             <option value="ascendente">A-Z</option>
             <option value="descendente">Z-A</option>
         </select>
 
-            <span className='descripcion'>Order by Diets: </span>
 
-        <select className='xdietas' onChange={e => handleFilterDiet(e)}>
-            <option value='All'>All</option>
+        <select className='xdietas' className='orders' onChange={e => handleFilterDiet(e)}>
+            <option selected>Order by Dites</option>
             <option value='gluten free'>Gluten Free</option>
             <option value='dairy free'>Dairy Free</option>
             <option value='lacto ovo vegetarian'>Lacto-Ovo-Vegetarian</option>
@@ -101,7 +100,7 @@ export default function HomePage(){
             {/* <option value='lacto vegetarian'>Lacto-Vegetariano</option> */}
         </select>
 
-        <button onClick={e => handleReset(e)}>Reset filters </button>
+        <button className='orders' onClick={e => handleReset(e)}>Reset filters </button>
             </div>
 
         </div>
