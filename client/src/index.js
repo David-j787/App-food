@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import store from './Store/index.js';
+import axios from 'axios';
 
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
